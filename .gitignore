@@ -1,1 +1,22 @@
+# dependencies
+/node_modules
 
+# Next.js
+/.next
+/out
+
+# tests
+/coverage
+
+# local environment files
+.env*
+!.env.example
+
+# deployment
+.vercel
+
+# editor and OS
+.DS_Store
+*.swp
+*.tsbuildinfo
+npm-debug.log*
